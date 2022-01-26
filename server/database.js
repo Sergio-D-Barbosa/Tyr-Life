@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')
-const bancoUsuarios = new Sequelize('cadastro', 'root', '*****', {
+const bancoUsuarios = new Sequelize('cadastro', 'root', 's971288362!', {
         host: 'localhost',
         dialect: 'mysql'
     })
