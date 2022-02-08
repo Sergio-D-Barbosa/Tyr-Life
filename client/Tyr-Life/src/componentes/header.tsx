@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/header.css'
 import json_pt_br from '../strings/pt-br.json'
+import {Link} from 'react-router-dom'
 
 const language: string = navigator.language
 var link1: string = ''
@@ -28,8 +29,8 @@ class Header extends React.Component{
                         <h1 id='logomarca'>Tyr Life</h1>
                     </div>
                     <ul id = 'list-links-nav'>
-                        <li id='link1'>{link1}</li>
-                        <li id='link2'>{link2}</li>
+                        <li><Link to="/register" id='link1'>{link1}</Link></li>
+                        <li><Link to="/login" id='link2'>{link2}</Link></li>
                     </ul>
                 </nav>
             </header>

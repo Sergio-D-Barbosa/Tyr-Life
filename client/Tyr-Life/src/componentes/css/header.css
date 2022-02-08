@@ -2,6 +2,10 @@
     font-family: Mochiy;
     src: url(./fonts/Mochiy_Pop_P_One/MochiyPopPOne-Regular.ttf);
 }
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(./fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf);
+}
 
 header{
     background-color: rgb(8, 11, 15);
@@ -37,14 +41,17 @@ ul#list-links-nav{
     display: flex;
     margin: 0;
 }
-li#link1{
+#link1, #link2{
+    text-decoration: none;
+}
+a#link1{
     padding-top: 8px;
     padding-bottom: 8px;
     padding-inline: 15px;
     color: #aab0ca;
     margin-right: 27px;
 }
-li#link1:hover{
+a#link1:hover{
     padding-top: 6px;
     padding-bottom: 6px;
     padding-inline: 13px;
@@ -52,23 +59,25 @@ li#link1:hover{
     border-radius: 10px;
     border-color: #1d3881;
 }
-li#link2{
+a#link2{
+    color: #b6d2ee ;
     border: 2px solid;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-inline: 15px;
     border-radius: 10px;
+    border-color: #355bc5;
     background-color: #355bc5;
     margin-right: 46px;
 }
-li#link2:hover{
-    color:rgb(15, 15, 15);
+a#link2:hover{
+    color:rgb(59, 59, 59);
+    border-color: #1d3881;
     background-color: #1d3881;
 }
 ul#list-links-nav > li{
     cursor: pointer;
     list-style: none;
-    font-weight: bold;
-    font-family: sans-serif;
+    font-family: OpenSans-Bold;
     font-size: 23px;
 }

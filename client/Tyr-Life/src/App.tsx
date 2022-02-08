@@ -1,9 +1,10 @@
 import React from 'react'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Home from './routesPage/home'
+import Index from './routesPage/Index'
+import Register from './routesPage/register'
+import Login from './routesPage/login'
 import './componentes/css/app.css'
-/* import Login from './routesPage/login'
-import Register from './routesPage/register' */
+import './functions/alternador'
 
 class App extends React.Component{
   render(){
@@ -11,9 +12,9 @@ class App extends React.Component{
       <Router>
         <Routes>
           <Route path='/' element={
-            <Home/>
+            <Index />
           }/>
-          {/* <Route path='/login' element={
+          <Route path='/login' element={
             <Login/>
           }>
           </Route>
@@ -24,7 +25,7 @@ class App extends React.Component{
           <Route path='/home' element={
             <h1>Home!</h1>
           }>
-          </Route> */}
+          </Route>
         </Routes>
       </Router>
     )

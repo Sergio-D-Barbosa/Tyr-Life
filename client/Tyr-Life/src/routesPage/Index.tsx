@@ -2,7 +2,9 @@ import React from 'react'
 import Header from '../componentes/header'
 import '../componentes/css/home.css'
 
-class Home extends React.Component{
+const botaoRegistrar = document.getElementById("link1")
+
+class Index extends React.Component{
     render(){
         return(
             <Header/>
@@ -10,4 +12,4 @@ class Home extends React.Component{
     }
 }
 
-export default Home
+export default Index
