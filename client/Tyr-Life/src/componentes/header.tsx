@@ -25,7 +25,7 @@ class Header extends React.Component{
             <header>
                 <nav>
                     <div id='box-logo'>
-                        <div id='icon-app'></div>
+                        <Link to="/"><div id='icon-app'></div></Link>
                         <h1 id='logomarca'>Tyr Life</h1>
                     </div>
                     <ul id = 'list-links-nav'>

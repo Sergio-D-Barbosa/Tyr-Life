@@ -2,6 +2,19 @@
     "header": {
         "link1": "registrar",
         "link2": "login"
+    },
+    "register": {
+        "titleLabel": "Faça seu registro",
+        "emailLabel": "email",
+        "senhaLabel": "senha",
+        "confirmarSenhaLabel": "confirmar senha",
+        "registrarLabel": "registrar"
+    },
+    "login": {
+        "titleLabel": "Faça seu login",
+        "emailLabel": "email",
+        "senhaLabel": "senha",
+        "entrarLabel": "entrar"
     }
     
 }
